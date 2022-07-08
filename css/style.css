@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: coral;
+}
+a{
+    text-decoration: none;
+    
+}
+body{
+    background-image: url(../img/witcher2.jpg);
+    background-repeat: initial;
+    background-size: 100%;
+
+}
+.bg{
+    height: 1880px;
+width: auto;
+position: relative;
+background-image: url(../img/witcher.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+
+/* border-bottom: 30px solid pink; */
+
+z-index: 5;
+}
+.logo-text{
+    display: inline-block;
+}
+.logo-line{
+    width: auto;
+    height: 100px;
+
+    position: relative;
+    z-index: 5;
+
+    background: radial-gradient(#2C3639,#3F4E4F);
+    border-bottom: 3px solid #3b3b38;
+}
+.logo1{
+    background-image: url(../img/logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+    width: 91px;
+    height: 85px;
+
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+.title{
+position: absolute;
+top: 15px;
+left: 120px;
+
+    font-size: 40px;
+    text-transform: uppercase;
+
+    font-weight: 400;
+    color: coral;
+    font-style: italic;
+    font-family: 'style';
+}
+.title2{
+    position: absolute;
+    top: 12px;
+    left: 121px;
+    
+    position: relative;
+        font-size: 40px;
+        text-transform: uppercase;
+    
+        font-weight: 400;
+        color: rgb(161, 47, 39);
+        font-style: italic;
+        font-family: 'style';
+    }
+    .logo45grad{
+        height: 400px;
+        width: 1000px;
+
+        transform: rotate(45grad);
+
+        z-index: -5;
+
+        position: absolute;
+        background-color: rgba(255, 214, 80, 0.5);
+    }
+.email{
+    float: right;
+
+    position: absolute;
+    top: 30px;
+    right: 50px;
+
+    font-style: italic;
+    font-size: 20px;
+}
+.search{
+    background-image: url(../img/search.jpeg);
+    background-size: 100%;
+
+    position: absolute;
+    right: 310px;
+    top: 20px;
+cursor: cell;
+
+border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.darkmode{
+    background-image: url(../img/moon.jpg);
+    background-size: 100%;
+
+    position: absolute;
+    right: 400px;
+    top: 20px;
+
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.line-games{
+    justify-content: center;
+    background-color: rgb(51, 53, 54);
+
+    block-size: max-content ;
+    display: inline-block;
+}
+
+.game1{
+    font-style: italic;
+    font-size: 30px;
+
+    margin: 10px 0 10px 30px;
+    display: inline-block;
+}
+.game2{
+    font-style: italic;
+    font-size: 30px;
+
+    margin: 10px 0 10px 30px;
+    display: inline-block;
+}.game3{
+    font-style: italic;
+    font-size: 30px;
+
+    margin: 10px 0 10px 30px;
+    display: inline-block;
+}
+.block1{
+    position: relative;
+left: 50px;
+top: 50px;
+
+
+    height: 1470px;
+    width: 700px;
+
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.bg-orange{
+width: auto;
+background-color: orange;
+height: 180px;
+}
+.inner-box1{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+    font-size: 40px;
+    font-style: oblique;
+
+    color: black;
+
+    
+    display: inline-block;
+    
+    block-size: max-content ;
+
+}
+.inner-box2-comments{
+
+    position: absolute;
+    top: 10px;
+    margin: 10px;
+    right: 10px;
+
+    width: 300px;
+
+    background-color: white;
+color:black;
+
+display: inline-block;
+
+font-size: 20px;
+    font-style: oblique;
+
+}
+.inner-box3-block{
+    margin: 10px;
+    background-color: white;
+}
+
+.img1{
+    height: 300px;
+    width: 600px;
+    image-resolution: unset;
+    margin: 30px;
+}
+.black{
+    background-color: black;
+}
+.black-bg{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.lightmode{
+    background-image: url(../img/sun.webp);
+    background-size: 100%;
+
+    position: absolute;
+    right: 400px;
+    top: 20px;
+
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.soc-sites1{
+    position: absolute;
+    bottom: 0;
+
+    width: 400px;
+    height: 100px;
+
+    background-size: 100%;
+    background-image: url(../img/blue-and-pink-halftone-background_53876-99004.webp);
+}
+.facebook1{
+    height: 70px;
+    width: 70px;
+    background-size: 100%;
+
+    margin: 15px 0 15px 50px;
+
+    background-size: 100%;
+    border-radius: 50%;
+    background-image: url(../img/facebook.png);
+
+    display:inline-block;
+}
+.inst1{
+    height: 70px;
+    width: 70px;
+    background-size: 100%;
+
+    margin: 15px 0 15px 50px;
+
+    background-size: 100%;
+    border-radius: 50%;
+    background-image: url(../img/inst.png);
+
+    display:inline-block;
+}
+.youtube1{
+    height: 70px;
+    width: 70px;
+    background-size: 100%;
+
+    margin: 15px 0 15px 50px;
+
+    background-size: 100%;
+    border-radius: 50%;
+    background-image: url(../img/youtube.png);
+
+    display:inline-block;
+}
+.soc-sites2{
+    position: absolute;
+    bottom: 0;
+
+    width: 400px;
+    height: 100px;
+
+    background-size: 100%;
+    background-image: url(../img/istockphoto-1168786352-612x612.jpg);
+}
+.facebook2{
+    height: 70px;
+    width: 70px;
+    background-size: 100%;
+
+    margin: 15px 0 15px 50px;
+
+    background-size: 100%;
+    border-radius: 50%;
+    background-image: url(../img/facebook2.png);
+
+    display:inline-block;
+}
+.inst2{
+    height: 70px;
+    width: 70px;
+    background-size: 100%;
+
+    margin: 15px 0 15px 50px;
+
+    background-size: 100%;
+    border-radius: 50%;
+    background-image: url(../img/inst2.png);
+
+    display:inline-block;
+}
+.youtube2{
+    height: 70px;
+    width: 70px;
+    background-size: 100%;
+
+    margin: 15px 0 15px 50px;
+
+    background-size: 100%;
+    border-radius: 50%;
+    background-image: url(../img/youtube2.png);
+
+    display:inline-block;
+}
